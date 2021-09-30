@@ -1,7 +1,7 @@
 # SBER-VQ-GAN  
 
 В данном репозитории содержится информация о модели VQ-GAN от SBER.  
-Мы улучшили качество генеации изображений на некоторых доменах, таких как люди и текста.
+Мы улучшили качество генерации изображений на некоторых доменах, таких как люди и текста.
 
 <a href="https://static.wikia.nocookie.net/walkingdead/images/d/d9/%D0%90%D1%80%D0%BD%D0%BE%D0%BB%D1%8C%D0%B4_%D0%A8%D0%B2%D0%B0%D1%80%D1%86%D0%B5%D0%BD%D0%B5%D0%B3%D0%B3%D0%B5%D1%80.jpg/revision/latest/scale-to-width-down/700?cb=20170729224452&path-prefix=ru">original</a>
 <p>
@@ -27,7 +27,7 @@
 
 ## Примеры
 <a href="https://colab.research.google.com/drive/16NcbwnbRjDTwM_RweoKNbFMa3NMU4GYI?usp=sharing">Jupyter с инференсом моделей</a>  
-<a href="https://colab.research.google.com/drive/1VG4WiKLX2nDcV8DrzdJexQs57Rqu3llX?usp=sharing">Jupyter с рассчётом метрик</a>  
+<a href="https://colab.research.google.com/drive/1VG4WiKLX2nDcV8DrzdJexQs57Rqu3llX?usp=sharing">Jupyter с расчётом метрик</a>  
 
 
 ## Результаты рассчёта метрик  
