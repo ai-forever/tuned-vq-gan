@@ -30,7 +30,7 @@
 <a href="https://colab.research.google.com/drive/1VG4WiKLX2nDcV8DrzdJexQs57Rqu3llX?usp=sharing">Jupyter с расчётом метрик</a>  
 
 
-## Результаты рассчёта метрик  
+## Результаты расчёта метрик  
 ### IS (Больше - лучше)
 |domain/model | VAE | 16384 | gumbelf8 | SBER-gumbelf8| Original|
 |:---|:---:|:---:|:---:|:---:|:---:|
