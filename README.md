@@ -1,6 +1,6 @@
-# SBER-VQ-GAN  
+# Tuned-VQ-GAN  
 
-This repository contains information about the SBER VQ-GAN model.  
+This repository contains information about the Tuned VQ-GAN model.  
 We've improved the quality of image generation on some domains such as people and text.  
 
 <a href="https://static.wikia.nocookie.net/walkingdead/images/d/d9/%D0%90%D1%80%D0%BD%D0%BE%D0%BB%D1%8C%D0%B4_%D0%A8%D0%B2%D0%B0%D1%80%D1%86%D0%B5%D0%BD%D0%B5%D0%B3%D0%B3%D0%B5%D1%80.jpg/revision/latest/scale-to-width-down/700?cb=20170729224452&path-prefix=ru">original</a>
@@ -23,7 +23,7 @@ We've improved the quality of image generation on some domains such as people an
 <a href="https://drive.google.com/file/d/1COec-dpskvwHbIl9QA8qy_9nuOzsRLkl/view?usp=sharing">VAE encoder</a> - <a href="https://drive.google.com/file/d/1pCIvZnVrzA968dqSAi2OEj299Y9YLcDQ/view?usp=sharing">VAE decoder</a>  
 <a href="https://drive.google.com/file/d/1yB5nPXiJqYnoBEOannq_M5JJ2lpzhp3T/view?usp=sharing">VQ-GAN 16384</a> - <a href="https://drive.google.com/file/d/1mXu9ThC3ET_uFGPwCYKCbOXqwma7wHo-/view?usp=sharing">Config 16384</a>  
 <a href="https://drive.google.com/file/d/1UHuUUWX5F4y17oaW8sWuDzrsXyExU-rK/view?usp=sharing">VQ-GAN GUMBELF8</a> - <a href="https://drive.google.com/file/d/1M7RvSoiuKBwpF-98sScKng0lsZnwFebR/view?usp=sharing">Config GUMBELF8</a>  
-<a href="https://drive.google.com/file/d/1WP6Li2Po8xYcQPGMpmaxIlI1yPB5lF5m/view?usp=sharing">SBER VQ-GAN GUMBELF8</a> - <a href="https://drive.google.com/file/d/1M7RvSoiuKBwpF-98sScKng0lsZnwFebR/view?usp=sharing">Config GUMBELF8</a>  
+<a href="https://drive.google.com/file/d/1WP6Li2Po8xYcQPGMpmaxIlI1yPB5lF5m/view?usp=sharing">Tuned VQ-GAN GUMBELF8</a> - <a href="https://drive.google.com/file/d/1M7RvSoiuKBwpF-98sScKng0lsZnwFebR/view?usp=sharing">Config GUMBELF8</a>  
 
 ## Examples  
 <a href="https://colab.research.google.com/drive/16NcbwnbRjDTwM_RweoKNbFMa3NMU4GYI?usp=sharing">Jupyter with model inference</a>  
@@ -32,7 +32,7 @@ We've improved the quality of image generation on some domains such as people an
 
 ## Metrics calculation results   
 ### IS (More - better)
-|domain/model | VAE | 16384 | gumbelf8 | SBER-gumbelf8| Original|
+|domain/model | VAE | 16384 | gumbelf8 | Tuned-gumbelf8| Original|
 |:---|:---:|:---:|:---:|:---:|:---:|
 |all | 11.133 | 13.647 | 15.203 | 15.316| 15.278|
 |indoor | 9.769 | 10.744 | 11.707 | 11.688 | 11.638|
@@ -52,7 +52,7 @@ We've improved the quality of image generation on some domains such as people an
 
 
 ### FID (Less - better)  
-|domain/model | VAE | 16384 | gumbelf8 | SBER-gumbelf8|  
+|domain/model | VAE | 16384 | gumbelf8 | Tuned-gumbelf8|  
 |:---|:---:|:---:|:---:|:---:| 
 |all | 59.753 | 38.912 | 30.304 | 30.136 |  
 |indoor | 74.734 | 57.925 | 45.432 | 44.686 |  
