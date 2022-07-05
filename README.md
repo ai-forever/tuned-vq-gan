@@ -2,6 +2,8 @@
 
 This repository contains information about the Tuned VQ-GAN model.  
 We've improved the quality of image generation on some domains such as people and text.  
+We used COCO only validation images. The splitting you can get <a href="https://drive.google.com/file/d/1_ccngzEbw_NiqsVH60lv8S8I82JrSNPv/view?usp=sharing">here</a>.
+
 
 <a href="https://static.wikia.nocookie.net/walkingdead/images/d/d9/%D0%90%D1%80%D0%BD%D0%BE%D0%BB%D1%8C%D0%B4_%D0%A8%D0%B2%D0%B0%D1%80%D1%86%D0%B5%D0%BD%D0%B5%D0%B3%D0%B3%D0%B5%D1%80.jpg/revision/latest/scale-to-width-down/700?cb=20170729224452&path-prefix=ru">original</a>
 <p>
@@ -70,6 +72,23 @@ We've improved the quality of image generation on some domains such as people an
 |face | 54.153 | 34.109 | 26.663 | 26.750 |  
 |text | 47.299 | 27.656 | 21.303 | 21.148 |  
 
+### Images per domain (<a href="https://drive.google.com/file/d/1_ccngzEbw_NiqsVH60lv8S8I82JrSNPv/view?usp=sharing">spliting</a>)
+|domain | images count|  
+|:---|:---:|  
+|food | 702|
+|person | 2652|
+|kitchen | 904|
+|sports | 919|
+|indoor | 645|
+|vehicle | 1139|
+|furniture | 1239|
+|appliance | 316|
+|accessory | 718|
+|animal | 1003|
+|electronic | 589|
+|outdoor | 553|
+|face | 1488|
+|text | 1706|
 
 ## Authors  
 <a href="https://github.com/TheDenk">Denis Karachev</a>  
